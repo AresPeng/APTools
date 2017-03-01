@@ -13,13 +13,12 @@ Pod::Spec.new do |s|
     s.summary      = "A Sample tools for ios Devlope"
     s.homepage     = "https://github.com/AresPeng/APTools"
     s.license      = "MIT"
-    s.license      = { :type => "MIT"， :file => "LICENSE" }
     s.author       = { "AresPeng" => "jue2yin81991@163.com" }
     #s.social_media_url = "http://twitter.com/AresPeng"
     s.platform     = :ios, "8.0"
     s.requires_arc = true
     s.source       = { :git => "https://github.com/AresPeng/APTools.git", :tag => s.version.to_s }
-    s.source_files  = 'APTools/*'
+    s.source_files  = 'APTools/TimeDate/*'
 
 
 end
