@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
     s.version      = "0.1.0"
     s.summary      = "A Sample tools for ios Devlope"
     s.homepage     = "https://github.com/AresPeng/APTools"
-    s.license      = 'BSD'
+    s.license      = "MIT"
+    s.license      = { :type => "MIT"， :file => "LICENSE" }
     s.author       = { "AresPeng" => "jue2yin81991@163.com" }
     #s.social_media_url = "http://twitter.com/AresPeng"
     s.platform     = :ios, "8.0"
